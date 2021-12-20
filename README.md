@@ -1,6 +1,6 @@
 # gDwarf
 
-this repo collects some **idc scripts**, which can import **structure**s from common software, into the program you are analyzing.
+This repo collects some **idc scripts**, which can import **structure**s from common software, into the program you are analyzing.
 
 ## Supported Software
 
@@ -61,13 +61,17 @@ this repo collects some **idc scripts**, which can import **structure**s from co
 ![open the local types window](open-the-local-types-window.png)
 ![local type window example](local-type-window-example.png)
 
-### edit structure
+### edit or insert structures
 
 1. select the structure to edit in **Local types** windows，then **right-click** the item, **left-click** the **Edit..**
 ![click the edit structure](clock-the-edit-structure.png)
 
 2. edit the structure definition in **C** code in the subwindow
-![edit the structure](edit-the-structure.png)
+  ![edit the structure](edit-the-structure.png)
+
+3. add(insert) a  self-defined structure 
+
+  ![edit the structure](insert.png)
 
 ### convert to structure
 
@@ -76,3 +80,15 @@ this repo collects some **idc scripts**, which can import **structure**s from co
 
 2. select the **import structure** you want the variable to convert to in subwindow
 ![select the wanted structure](select-the-wanted-structure.png)
+
+## Example
+
+Hitcon CTF 2021 -- chaos challenge. 
+
+before structure label (import kernel idc file and add self-defined structure):
+
+![before](chaos1.png)
+
+after structure label:
+
+![after](chaos2.png)
