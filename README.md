@@ -52,8 +52,27 @@ this repo collects some **idc scripts**, which can import **structure**s from co
 
 ## Usage
 
-1. Click the **File**->**Script file**，then select the relative idc script file above
+### import structure
+
+1. **left-click** the **File**->**Script file**，then select the relative idc script file above
 ![select the idc script](select-the-idc-script.png)
-2. Click the **View**->**Open subviews**->**Local types**，then the import structures are in this window.
+
+2. **left-click** the **View**->**Open subviews**->**Local types**，then the import structures are in this window.
 ![open the local types window](open-the-local-types-window.png)
 ![local type window example](local-type-window-example.png)
+
+### edit structure
+
+1. select the structure to edit in **Local types** windows，then **right-click** the item, **left-click** the **Edit..**
+![click the edit structure](clock-the-edit-structure.png)
+
+2. edit the structure definition in **C** code in the subwindow
+![edit the structure](edit-the-structure.png)
+
+### convert to structure
+
+1. **left-click** the variable in pseudocode by **F5**, then **right-click** the item, **left-click** the **Convert to struct \*...**
+![click the convert to structure](click-the-convert-to-structure.png)
+
+2. select the **import structure** you want the variable to convert to in subwindow
+![select the wanted structure](select-the-wanted-structure.png)
