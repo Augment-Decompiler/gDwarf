@@ -50,6 +50,13 @@ This repo collects some **idc scripts**, which can import **structure**s from co
 | 6.2.0 | xtensa | https://github.com/Augment-Decompiler/gDwarf/blob/main/qemu/6.2.0/qemu-system-xtensa.idc |
 | 6.2.0 | xtensaeb | https://github.com/Augment-Decompiler/gDwarf/blob/main/qemu/6.2.0/qemu-system-xtensaeb.idc |
 
+
+### C++ Standard Template Library (STL)
+
+| version | link |
+| :--: | :--: |
+| C++ stl | https://github.com/Augment-Decompiler/gDwarf/blob/main/cplusplus/cplusplus_stl.idc |
+
 ## Usage
 
 ### import structure
